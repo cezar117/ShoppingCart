@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ShoppingCart.Core/1.0.0": {
+        "dependencies": {
+          "ShoppingCart.Entities": "1.0.0"
+        },
+        "runtime": {
+          "ShoppingCart.Core.dll": {}
+        }
+      },
+      "ShoppingCart.Entities/1.0.0": {
+        "runtime": {
+          "ShoppingCart.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingCart.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

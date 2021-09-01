@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Shopping Cart";
+    @model ShoppingCart.Entities.ShoppingCart
+}
+
+
+<br />
+
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Nombre </th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Imagen</th>
+
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nombre</td>
+            <td>$ @item.Precio  </td>
+            <td>@item.Cantidad</td>
+            <td><img style="width:70px;height:70px" src="~/img/@item.Imagen" /></td>
+        </tr>
+    }
+    <tr>
+        <td>TOTAL:</td>
+        <td>$ @ViewBag.totalCompra</td>
+    </tr>
+    <tr>
+        <td>TOTAL ITEMS:</td>
+        <td>@ViewBag.totalItems</td>
+    </tr>
+    <tr>
+        <td>Fecha de Compra:</td>
+        <td>@Model.FechaCompra</td>
+    </tr>
+</table>

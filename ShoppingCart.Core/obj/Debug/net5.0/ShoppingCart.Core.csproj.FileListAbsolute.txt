@@ -1,0 +1,15 @@
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ShoppingCart.Core.deps.json
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ShoppingCart.Core.dll
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ref\ShoppingCart.Core.dll
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ShoppingCart.Core.pdb
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ShoppingCart.Entities.dll
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\bin\Debug\net5.0\ShoppingCart.Entities.pdb
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.csprojAssemblyReference.cache
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.AssemblyInfoInputs.cache
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.AssemblyInfo.cs
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.csproj.CoreCompileInputs.cache
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.csproj.CopyComplete
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.dll
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ref\ShoppingCart.Core.dll
+C:\repositorio_viajaclick\PRUEBAS\ShoppingCart\ShoppingCart.Core\obj\Debug\net5.0\ShoppingCart.Core.pdb
