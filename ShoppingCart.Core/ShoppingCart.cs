@@ -26,11 +26,14 @@ namespace ShoppingCart.Core
         public List<Item> GetCartList(List<int> itemsId)
         {
             var items = this.GetProductList();
-            var result = items.Where(x => itemsId.Contains(x.Id));
-            foreach(var rs in result)
-            {
-                rs.Cantidad = itemsId.Where(x => x == rs.Id).Count();
-            }
+
+            var result = items.Select(x => new Item { Id = x.Id, Cantidad = itemsId.Where(y => y == x.Id).Count(), Imagen = x.Imagen, Nombre = x.Nombre, Precio = x.Precio }  ).Where(z => itemsId.Contains(z.Id));
+        
+            //result = items.Where(x => itemsId.Contains(x.Id));
+            //foreach(var rs in result)
+            //{
+            //    rs.Cantidad = itemsId.Where(x => x == rs.Id).Count();
+            //}
             return result.ToList();
 
         }
